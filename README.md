@@ -6,6 +6,13 @@
 ## APK
 Az apk megtalálható a gyökérkönyvtárban "Vízóra_lejelentő.apk" néven!
 
+## Hibás fordítás vagy buildelés esetén
+##### Android Studio: 2023.1.1 Patch 2
+##### Android Gradle Plugin Version: 8.2.2
+##### Gradle Version: 8.2
+##### SDK: 34 (Android 14)
+##### Java: 17
+
 ## Kapcsolat
 
 Ha bármilyen kérdésed vagy problémád adódna az alkalmazással kapcsolatban, ne habozz:
