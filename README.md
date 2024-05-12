@@ -2,6 +2,8 @@
 
 Én így értékeltem az alkalmazást:
 [mobil_scoring_spreadsheet_2024.xlsx](https://docs.google.com/spreadsheets/d/1OpxDSICdBYBpsgE83w7QSksj9LFwkZ4v/edit?usp=sharing&ouid=112962420198782253911&rtpof=true&sd=true)
+
+## APK
 Az apk megtalálható a gyökérkönyvtárban "Vízóra_lejelentő.apk" néven!
 
 ## Kapcsolat
