@@ -23,11 +23,11 @@ Ez az alkalmazás segít a vízóra állásának nyomon követésében és jelen
 - Kijelentkezés
 
 ## Magyarázatot igénylő funkciók
-##### Listázás és törlés
+#### Listázás és törlés
 Meg kell nyomni a "kijelölés és törlés" gombot ekkor ez piros színű lesz és minden amire ezután kattintasz törlődni fog.
 
-##### Listázás és módosítás
+#### Listázás és módosítás
 Ki kell választani a listából egy sort és ha rányomunk tudjuk módosítani az adatokat.
 
-##### Lifecycle Hook
+#### Lifecycle Hook
 Ha épp regisztrációba vagy bejelentkezés menübe vagyunk és kitöltöttük a jelszó mezőt és jön egy hívás vagy háttérbe dobjuk az alkalmazást ha utána vissza térünk akkor a jelszó mező üres lesz biztonsági okokból.
