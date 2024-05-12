@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hatter"
+    tools:context=".CRUD.Hozzadas">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cim"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="55sp"
+        android:text="@string/oraallas"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="67dp" />
+
+    <EditText
+        android:id="@+id/oraAllas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:background="@color/input"
+        android:hint="@string/merooraallas"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/inputbanhint"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="10dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/oraAzonosito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/input"
+        android:hint="@string/merooraazonosito"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/inputbanhint"
+        app:layout_constraintTop_toBottomOf="@id/oraAllas"
+        tools:layout_editor_absoluteX="10dp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/gomb"
+        android:onClick="adatRogzites"
+        android:padding="20dp"
+        android:text="@string/adatmentes"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/oraAzonosito"
+        tools:layout_editor_absoluteX="188dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

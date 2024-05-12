@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hatter"
+    tools:context=".CRUD.Modositas">
+
+    <EditText
+        android:id="@+id/editOraAzonosito"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="@string/ora_azonosito"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColorHint="@color/inputbanhint"
+        android:background="@color/input"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editOraAllas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColorHint="@color/inputbanhint"
+        android:background="@color/input"
+        android:hint="@string/ora_allas"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editOraAzonosito"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/gomb"
+        android:padding="12dp"
+        android:text="@string/mod"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editOraAllas" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

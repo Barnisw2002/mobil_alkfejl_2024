@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.kozmulejelento">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vizora"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/vizora"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Vizoralejelento">
+        <activity
+            android:name=".CRUD.ListaMod"
+            android:exported="false"/>
+        <activity
+            android:name=".CRUD.Modositas"
+            android:exported="false" />
+        <activity
+            android:name=".CRUD.Hozzadas"
+            android:exported="false" />
+        <activity
+            android:name=".CRUD.ListazasEsTorles"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Regisztracio"
+            android:exported="false" />
+        <activity
+            android:name=".MainBelepes"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Vízóra lejelentő</string>
+    <string name="nev">Név</string>
+    <string name="bejelentkezes">Bejelentkezes</string>
+    <string name="jelszo">Jelszó</string>
+    <string name="regist">Regisztráció</string>
+    <string name="azonosito">Ügyfél szám</string>
+    <string name="email">Email</string>
+    <string name="megse">Mégsem</string>
+    <string name="hozzadas">Hozzáadás</string>
+    <string name="torles">Törlés</string>
+    <string name="kilepes">Kijelentkezés</string>
+    <string name="merooraallas">Mérő óra állása</string>
+    <string name="merooraazonosito">Mérő óra azonosítója</string>
+    <string name="oraallas">Rögzítés</string>
+    <string name="hozzad">Hozzáadás</string>
+    <string name="adatmentes">Adat rögzítése</string>
+    <string name="modosit">Módosítás</string>
+    <string name="ora_azonosito">ora_azonosito</string>
+    <string name="ora_allas">ora_allas</string>
+    <string name="mod">Módosítás</string>
+    <string name="kiestor">Kijelölés és törlés</string>
+    <string name="vissza">Vissza</string>
+    <string-array name="ugyfeltipus">
+        <item>Lakossági</item>
+        <item>Vállalati</item>
+    </string-array>
+</resources>

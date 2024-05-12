@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#8A51DD</color>
+    <color name="purple_700">#808A51DD</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gomb">#AD80ED</color>
+    <color name="input">#32B081F4</color>
+    <color name="hatter">#E7E1D2</color>
+    <color name="cim">#000000</color>
+    <color name="inputbanhint">#424242</color>
+    <color name="kilepes">#DA6296</color>
+</resources>

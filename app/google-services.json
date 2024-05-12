@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "370515503386",
+    "project_id": "kozmu-e91eb",
+    "storage_bucket": "kozmu-e91eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370515503386:android:e5215572c8dedc9a0ee4a3",
+        "android_client_info": {
+          "package_name": "com.example.kozmulejelento"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxR1LCqk9W3LfiZy5A3pORGKWZMbRft0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/hatter"
+android:scrollbars="vertical"
+tools:context=".Regisztracio">
+
+<TextView
+    android:id="@+id/registLable"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="15"
+    android:text="@string/regist"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    app:autoSizeMinTextSize="48dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.17000002" />
+
+<EditText
+    android:id="@+id/registEmailText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:autofillHints=""
+    android:backgroundTint="@color/black"
+    android:ems="10"
+    android:hint="@string/email"
+    android:inputType="textEmailAddress"
+    android:minHeight="48dp"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textColorHint="@color/inputbanhint"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/registLable"
+    app:layout_constraintVertical_bias="0.25"
+    tools:layout_editor_absoluteX="100dp" />
+
+<EditText
+    android:id="@+id/registNameText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:autofillHints=""
+    android:backgroundTint="@color/black"
+    android:ems="10"
+    android:hint="@string/nev"
+    android:inputType="textPersonName"
+    android:minHeight="48dp"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textColorHint="@color/inputbanhint"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/registEmailText"
+    app:layout_constraintVertical_bias="0.050000012"
+    tools:layout_editor_absoluteX="0dp" />
+
+<EditText
+    android:id="@+id/registNumberText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/black"
+    android:ems="10"
+    android:hint="@string/azonosito"
+    android:inputType="number"
+    android:minHeight="48dp"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textColorHint="@color/inputbanhint"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/registNameText"
+    app:layout_constraintVertical_bias="0.050000012"
+    tools:layout_editor_absoluteX="100dp"
+    android:autofillHints="" />
+
+<EditText
+    android:id="@+id/registPassText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/black"
+    android:hint="@string/jelszo"
+    android:inputType="textPassword"
+    android:minWidth="48dp"
+    android:minHeight="48dp"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textColorHint="@color/inputbanhint"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/registNumberText"
+    app:layout_constraintVertical_bias="0.050000012"
+    tools:layout_editor_absoluteX="100dp"
+    android:autofillHints="" />
+
+<Button
+    android:id="@+id/registOkButton"
+    android:layout_width="174dp"
+    android:layout_height="54dp"
+    android:backgroundTint="@color/gomb"
+    android:onClick="regisztral"
+    android:text="@string/regist"
+    android:textColor="@color/black"
+    android:textColorLink="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.95"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.95" />
+
+<Button
+    android:id="@+id/registCancelButton"
+    android:layout_width="174dp"
+    android:layout_height="54dp"
+    android:backgroundTint="@color/gomb"
+    android:onClick="megszakitas"
+    android:text="@string/megse"
+    android:textColor="@color/black"
+    android:textColorLink="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.06"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.95" />
+
+<Spinner
+    android:id="@+id/elofizetesTipus"
+    android:layout_width="409dp"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    android:textColor="@color/input"
+    android:textColorHint="@color/inputbanhint"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/registPassText"
+    app:layout_constraintVertical_bias="0.050000012"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="1dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

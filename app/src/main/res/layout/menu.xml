@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hatter"
+    tools:context=".Menu">
+
+    <Button
+        android:id="@+id/ujOraJelentes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/gomb"
+        android:onClick="ujOraAllas"
+        android:text="@string/hozzadas"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/OraJelentes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="20dp"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/OraJelentes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/gomb"
+        android:onClick="oraAllasokInit"
+        android:text="@string/torles"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/ujOraJelentes"
+        app:layout_constraintBottom_toTopOf="@+id/adatmodosit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="20dp"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/adatmodosit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/gomb"
+        android:onClick="oraNullazas"
+        android:text="@string/modosit"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/OraJelentes"
+        app:layout_constraintBottom_toTopOf="@+id/kilep"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="20dp"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/kilep"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/kilepes"
+        android:onClick="kijelentkezes"
+        android:text="@string/kilepes"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/adatmodosit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="20dp"
+        tools:ignore="TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

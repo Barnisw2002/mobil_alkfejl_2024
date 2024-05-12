@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hatter"
+    tools:context=".MainBelepes">
+
+    <EditText
+        android:id="@+id/editTextUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/input"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="#424242"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        tools:layout_editor_absoluteX="10dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/input"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:hint="@string/jelszo"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="#424242"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUserEmail"
+        app:layout_constraintVertical_bias="0.050000012"
+        tools:layout_editor_absoluteX="0dp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/gomb"
+        android:hapticFeedbackEnabled="false"
+        android:minHeight="48dp"
+        android:onClick="bejelentkezes"
+        android:text="@string/bejelentkezes"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
+        app:layout_constraintVertical_bias="0.100000024"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/regist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/gomb"
+        android:minHeight="48dp"
+        android:onClick="regisztracio"
+        android:text="@string/regist"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="10dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
