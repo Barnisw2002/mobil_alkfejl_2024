@@ -18,15 +18,16 @@ Ez az alkalmazás segít a vízóra állásának nyomon követésében és jelen
 - Regisztráció
 - Belépés
 - Hozzáadás
-- Listázás és törlés
-- Listázás és módosítás
+- Törlés
+- Listázáa
+- Módosítás
 - Kijelentkezés
 
 ## Magyarázatot igénylő funkciók
-#### Listázás és törlés
+#### Törlés
 Meg kell nyomni a "kijelölés és törlés" gombot ekkor ez piros színű lesz és minden amire ezután kattintasz törlődni fog.
 
-#### Listázás és módosítás
+#### Módosítás
 Ki kell választani a listából egy sort és ha rányomunk tudjuk módosítani az adatokat.
 
 #### Lifecycle Hook
